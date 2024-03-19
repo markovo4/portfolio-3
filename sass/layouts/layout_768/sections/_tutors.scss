@@ -1,0 +1,120 @@
+.tutors{
+    padding: 200px 0 200px 0;
+
+    &__container{
+        margin: 0 auto;
+        max-width: 1296px;
+    }
+
+    &__main-title{
+        color: #FFF;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &__descript-list{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 82px;
+    }
+
+    &__descript-item--1::before{
+        content: url("/img/Ellipse\ 2.png");
+        margin-bottom: 40px;
+    }
+
+    &__descript-item--2::before{
+        content: url("/img/Ellipse\ 2\ \(1\).png");
+        margin-bottom: 40px;
+    }
+
+    &__descript-item--3::before{
+        content: url("/img/Ellipse\ 2\ \(2\).png");
+        margin-bottom: 40px;
+    }
+
+    &__descript-title{
+        color:#FFF;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        margin-bottom: 15px;
+    }
+
+    &__main-title::before{
+        content: url("/img/icon-heading4.svg");
+    }
+
+    &__descript-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__descript-subtitle{
+        opacity: 0.8;
+        width: 358px;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 40px;
+    }
+
+    &__button{
+        display: inline-flex;
+        padding: 10px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+        border: 1px solid var(--white, #FFF);
+    }
+
+    &__button:hover{
+        transition: 0.5s;
+        animation: button-2 3s infinite;
+
+    }
+
+    @keyframes button-2 {
+        0%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgba(98, 1, 255, 0.979);
+            border: 2px solid #a352ff;
+        }
+        20%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgb(196, 1, 255);
+            border: 2px solid #fc9aaf;
+        }
+        40%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgb(98, 1, 255);
+            border: 2px solid #a352ff;
+        }
+        60%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgb(196, 1, 255);
+            border: 2px solid #fc9aaf;
+        }
+        100%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgb(98, 1, 255);
+            border: 2px solid #a352ff;
+        }
+
+    }
+}

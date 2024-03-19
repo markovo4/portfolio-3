@@ -1,0 +1,104 @@
+.course{
+    padding: 36px;
+    margin: 0 auto;
+    &__container{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        border: 5px solid  #451046a4;
+        border-radius: 23px 23px 5px 5px;
+    }
+
+    &__buy-button{
+        color: var(--white, #FFF);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        width: 100%;
+
+        border-radius: 50px;
+        background: linear-gradient(95deg, #DF5950 11.19%, #451046 93.72%);
+        display: flex;
+        padding: 10px 30px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        animation: button-1 3s infinite;
+    }
+
+    &__info-list{
+        display: flex;
+        gap: 30px;
+    }
+
+    &__info-type{
+        color: var(--white, #ffffff);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        opacity: 0.6;
+        width: 200px;
+    }
+
+    &__info-data{
+        color: var(--white, #FFF);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+
+    }
+
+    &__info-data:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    &__info-type:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    &__stat-list{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    &__info-type--hidden{
+        display: none;
+    }
+
+    @keyframes  button-1 {
+        0%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em #DF5950;
+            background: linear-gradient(95deg, #DF5950 11.19%, #451046 93.72%);
+        }
+        20%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgb(1, 183, 255);
+            background: linear-gradient(95deg, #505edf 11.19%, #511985 93.72%);
+        }
+        40%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em #DF5950;
+            background: linear-gradient(95deg, #DF5950 11.19%, #451046 93.72%);
+        }
+        60%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgb(1, 183, 255);
+            background: linear-gradient(95deg, #505edf 11.19%, #511985 93.72%);
+        }
+        100%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em #DF5950;
+            background: linear-gradient(95deg, #DF5950 11.19%, #451046 93.72%);
+        }
+
+    }
+
+}

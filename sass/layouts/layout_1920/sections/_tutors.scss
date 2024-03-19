@@ -1,0 +1,85 @@
+.tutors{
+    padding: 200px 15px;
+
+    &__container{
+        margin: 0 auto;
+        max-width: 768px;
+    }
+
+    &__main-title{
+        color: #FFF;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &__descript-list{
+        display: flex;
+        justify-content: center;
+        flex-direction: unset;
+        gap: 82px;
+    }
+
+    &__descript-item--1::before{
+        content: url("/img/Ellipse\ 2.png");
+        margin-bottom: 40px;
+    }
+
+    &__descript-item--2::before{
+        content: url("/img/Ellipse\ 2\ \(1\).png");
+        margin-bottom: 40px;
+    }
+
+    &__descript-item--3::before{
+        content: url("/img/Ellipse\ 2\ \(2\).png");
+        margin-bottom: 40px;
+    }
+
+    &__descript-title{
+        color:#FFF;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        margin-bottom: 15px;
+    }
+
+    &__main-title::before{
+        content: url("/img/icon-heading4.svg");
+    }
+
+    &__descript-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__descript-subtitle{
+        opacity: 0.8;
+        max-width: 358px;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 40px;
+    }
+
+    &__button{
+        display: inline-flex;
+        padding: 10px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+        border: 1px solid var(--white, #FFF);
+    }
+}

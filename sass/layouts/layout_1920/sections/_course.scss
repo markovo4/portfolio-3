@@ -1,0 +1,134 @@
+.course{
+    padding: 36px 312px;
+
+    &__container{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: unset;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 81px;
+        border: unset;
+    }
+
+    &__buy-button{
+        color: var(--white, #FFF);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        width: 100%;
+        max-width: 190px;
+
+        border-radius: 50px;
+        background: linear-gradient(95deg, #DF5950 11.19%, #451046 93.72%);
+        display: inline-flex;
+        padding: 10px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: unset;
+    }
+
+    &__info-list{
+        display: flex;
+        gap: 30px;
+    }
+
+    &__info-type{
+        color: var(--white, #FFF);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        opacity: 0.4;
+        width: 200px;
+    }
+
+    &__info-data{
+        color: var(--white, #FFF);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+
+    }
+
+    &__info-data:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    &__info-type:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    &__stat-list{
+        display: flex;
+        gap: 30px;
+        width: 715px;
+        flex-direction: column;
+    }
+
+    &__stat-list{
+        .course__info-type{
+            margin: 0;
+        }
+    }
+
+    &__stat-item--first{
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+    }
+    
+    &__stat-item--last{
+        display: flex;
+        justify-content: space-between;
+        width: 670px;
+    }
+
+    &__info-type--right{
+        text-align: right;
+    }
+
+    &__stat-data--filled::after{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 47.7%;
+        content: "";
+        width: 470px;
+        height: 6px;
+        background: linear-gradient(95deg, #DF5950 11.19%, #451046 93.72%);
+    }
+
+    &__stat-data--filled::before{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 47.7%;
+        content: "";
+        width: 670px;
+        height: 6px;
+        background-color: #FFF;
+    }
+
+    &__stat-item--last{
+        margin-top: -15px;
+    }
+
+    &__stat-item--first{
+        margin-bottom: -20px;
+    }
+
+    &__info-type--hidden{
+        display: contents;
+    }
+
+    &__info-data--hidden{
+        display: none;
+    }
+
+}

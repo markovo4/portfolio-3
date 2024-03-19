@@ -1,0 +1,107 @@
+.partners{
+    padding: 200px 0 200px 0;
+    margin: 0 auto;
+    max-width: 1296px;
+
+    
+    &__container{
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    &__main-title{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: var(--white, #FFF);
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-bottom: 90px;
+    }
+
+    &__main-title::before{
+        content: url("/img/icon-heading222.svg");
+    }
+
+    &__brands-list{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 80px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &__brands-item{
+        display: flex;
+    }
+
+
+
+    .img{
+        border: 1px solid rgba(255, 255, 255, 0.123);
+        padding: 50px;
+        width: 280px;
+        height: auto;
+        
+    }
+
+    .img5 {
+        border-bottom: 1px solid transparent;
+    }
+
+    .img6 {
+        border-bottom: 1px solid transparent;
+    }
+
+    .img7 {
+        border-bottom: 1px solid transparent;
+    }
+
+    .img8 {
+        border-bottom: 1px solid transparent;
+    }
+
+    .img1 {
+        border-top: 1px solid transparent;
+    }
+
+    .img2{
+        border-top: 1px solid transparent;
+    }
+
+    .img3 {
+        border-top: 1px solid transparent;
+    }
+
+    .img4 {
+        border-top: 1px solid transparent;
+    }
+
+    .img4 {
+        border-right: 1px solid transparent;
+    }
+
+    .img8 {
+        border-right: 1px solid transparent;
+    }
+
+    .img1 {
+        border-left: 1px solid transparent;
+    }
+
+    .img5 {
+        border-left: 1px solid transparent;
+    }
+
+
+
+
+}

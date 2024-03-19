@@ -1,0 +1,114 @@
+.education{
+    padding: 200px 0 200px 0;
+
+    &__container{
+        margin: 0 auto;
+        max-width: 1296px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__main-title{
+        margin-bottom: 30px;
+        color: #FFF;
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+    }
+
+    &__container::before{
+        content: url("/img/icon-heading3.svg");
+        margin-bottom: 30px;
+
+    }
+
+    &__main-subtitle{
+        margin-bottom: 90px;
+        width: 411px;
+        color:#FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        opacity: 0.5;
+    }
+
+    &__descript-list{
+        display: flex;
+        flex-direction: column;
+        background-image: url("/img/timelinebgLine2.png");
+        background-position-x: center;
+        background-repeat: no-repeat;
+    }
+
+    &__title{
+        color:#FFF;
+        text-align: right;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 160%;
+        opacity: 0.5;
+        margin-right: 540px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &__subtitle{
+        color:#FFF;
+        text-align: right;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 160%;
+        width: 400px;
+        max-width: unset;
+        display: flex;
+        margin-left: 50px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &__subtitle::after{
+        content: url("/img/Line\ 5bgLine.png");
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    &__subtitle--reversed{
+        text-align: left;
+        margin-left: 320px;
+        margin-right: 50px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    &__subtitle--reversed::after{
+        content: "";
+    }
+
+    &__subtitle--reversed::before{
+        content: url("/img/Line\ 5bgLine.png");
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+
+    &__title--reversed{
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 0;
+        margin-left: 400px;
+    }
+
+    &__descript-item--reversed{
+        margin-left: 140px;
+    }
+
+}

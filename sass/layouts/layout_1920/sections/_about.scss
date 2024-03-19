@@ -1,0 +1,42 @@
+.about{
+    padding: 200px 312px;
+    background-image: url("/img/about__imgwhatWeDo.png");
+    background-repeat: no-repeat;
+    background-position-y: 200px;
+    background-position-x: 312px;
+    background-color: unset;
+    background-size: auto;
+    background-position: fixed;
+    margin: 0 auto;
+
+    &__container{
+        max-width: 1296px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    &__title{
+        color: var(--white, #FFF);
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-bottom: 45px;
+    }
+
+    &__subtitle{
+        color: var(--white, #FFF);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        width: 636px;
+    }
+
+    &__wrapper{
+        margin-left: auto;
+        padding-top: 69px;
+    }
+}

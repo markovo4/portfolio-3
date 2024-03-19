@@ -1,0 +1,99 @@
+.header{
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 80px;
+        margin: 0 auto;
+        max-width: 768px;
+    }
+
+    &__nav-list{
+        max-width: 768px;
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        a{
+            color: var(--white, #FFF);
+            text-align: center;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+        }
+    }
+
+    &__logo{
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+    }
+
+    &__nav-item--hidden{
+        display: none;
+    }
+
+    &__active:hover{
+        color: rgb(255, 255, 255);
+        transition: 0.5s;
+        background-color: #7d6afabe;
+        border-radius: 5px;
+    }
+
+    &__button{
+        display: inline-flex;
+        padding: 5px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+        background: var(--grad2, linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%));
+        margin-left: 285px;
+    }
+    &__button:hover{
+        color: rgb(255, 255, 255);
+        background: linear-gradient(94deg, #fc9aaf 9.51%, #e96afa 90.23%);
+        animation: button 1s infinite;
+    }
+
+    @keyframes button {
+        0%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgba(98, 1, 255, 0.979);
+            background: linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+        }
+        20%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgb(196, 1, 255);
+            background: linear-gradient(94deg, #fc9aaf 9.51%, #e96afa 90.23%);
+        }
+        40%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgb(98, 1, 255);
+            background: linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+        }
+        60%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgb(196, 1, 255);
+            background: linear-gradient(94deg, #fc9aaf 9.51%, #e96afa 90.23%);
+        }
+        100%{
+            transition: 0.5s;
+            box-shadow: 0.3em 0.3em 1em rgb(98, 1, 255);
+            background: linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+        }
+
+    }
+}
+

@@ -1,0 +1,109 @@
+.start{
+    padding: 200px 0;
+
+    &__container{
+        margin: 0 auto;
+        max-width: 1296px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title{
+        color: #FFF;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-bottom: 20px;
+        display:flex;
+        align-items: center;
+
+    }
+
+    &__title::before{
+        content: url("/img/icon-heading.svg");
+        padding-right: 20px;
+        width: 127px;
+        height: 127px;
+    }
+
+    &__subtitle{
+        color:#FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        width: 411px;
+        opacity: 0.4;
+        margin-bottom: 80px;
+        text-align: unset;
+    }
+
+    &__stat-list{
+        display: flex;
+        flex-direction: unset;
+    }
+
+    &__stat-title{
+        color: #FFF;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+    &__stat-item{
+        text-align: unset;
+        margin-bottom: unset;
+    }
+
+    &__stat-subtitle{
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        opacity: 0.4;
+        text-align: unset;
+    }
+
+    &__stat-subtitle{
+        padding-right: 18px;
+    }
+
+    &__stat-rect-1::before{
+        display: block;
+        margin: 0 0 35px 0;
+        content: "";
+        width: 324px;
+        height: 80px;
+        background: linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    }
+
+    &__stat-rect-2::before{
+        display: block;
+        margin: 30px 0 45px 0;
+        content: "";
+        width: 324px;
+        height: 60px;
+        background: linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    }
+
+    &__stat-rect-3::before{
+        display: block;
+        margin: 45px 0 60px 0;
+        content: "";
+        width: 324px;
+        height: 30px;
+        background: linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    }
+
+    &__stat-rect-4::before{
+        display: block;
+        margin: 55px 0 70px 0;
+        content: "";
+        width: 324px;
+        height: 10px;
+        background: linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    }
+}

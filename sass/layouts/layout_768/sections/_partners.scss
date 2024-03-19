@@ -1,0 +1,94 @@
+.partners{
+    padding: 200px 15px;
+    margin: 0 auto;
+    max-width: 768px;
+
+    
+    &__container{
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    &__main-title{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: var(--white, #FFF);
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-bottom: 90px;
+    }
+
+    &__main-title::before{
+        content: url("/img/icon-heading222.svg");
+        padding-right: 50px;
+        width: 60px;
+        height: 60px;
+    }
+
+    &__brands-list{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 80px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &__brands-item{
+        display: flex;
+    }
+
+
+
+    .img{
+        border: 2px solid rgba(255, 255, 255, 0.205);
+        padding: 50px;
+        width: 280px;
+        height: auto;
+        
+    }
+
+    .img1 {
+        border-top: transparent;
+        border-left: transparent;
+    }
+
+    .img3{
+        border-left: transparent;
+    }
+
+    .img5{
+        border-left: transparent;
+    }
+
+    .img7{
+        border-left: transparent;
+        border-bottom: transparent;
+    }
+
+    .img8 {
+        border-bottom: transparent;
+        border-right: transparent;
+    }
+
+    .img4{
+        border-right: transparent;
+    }
+
+    .img6{
+        border-right: transparent;
+    }
+
+    .img2{
+        border-right: transparent;
+        border-top: transparent;
+    }
+}

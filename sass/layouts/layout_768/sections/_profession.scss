@@ -1,0 +1,70 @@
+.profession{
+    padding: 200px 15px;
+
+    &__container{
+        margin: 0 auto;
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__main-title{
+        margin-bottom: 120px;
+        color: #FFF;
+        text-align: center;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+    }
+
+    &__descript-list{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 82px;
+        margin: 0 auto;
+        max-width: 768px;
+    }
+
+    &__descript-title{
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        margin-bottom: 30px;
+
+    }
+
+    &__descript-title--1::before{
+        content: url("/img/icon-1.svg");
+        display: flex;
+        justify-content: center;
+    }
+
+    &__descript-title--2::before{
+        content: url("/img/icon-2.svg");
+        display: flex;
+        justify-content: center;
+    }
+
+    &__descript-title--3::before{
+        content: url("/img/icon-3.svg");
+        display: flex;
+        justify-content: center;
+    }
+
+    &__descript-subtitle{
+        color:#FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        opacity: 0.8;
+        max-width: 600px;
+    }
+}
